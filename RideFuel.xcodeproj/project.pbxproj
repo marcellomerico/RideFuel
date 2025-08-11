@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ADF45A952E44EDF500579DC6 /* Rezept+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF45A932E44EDF500579DC6 /* Rezept+CoreDataClass.swift */; };
+		ADF45A962E44EDF500579DC6 /* Rezept+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF45A942E44EDF500579DC6 /* Rezept+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		ADF45A492E433AC300579DC6 /* RideFuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideFuel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF45A932E44EDF500579DC6 /* Rezept+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rezept+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ADF45A942E44EDF500579DC6 /* Rezept+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rezept+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		ADF45A402E433AC300579DC6 = {
 			isa = PBXGroup;
 			children = (
+				ADF45A932E44EDF500579DC6 /* Rezept+CoreDataClass.swift */,
+				ADF45A942E44EDF500579DC6 /* Rezept+CoreDataProperties.swift */,
 				ADF45A4B2E433AC300579DC6 /* RideFuel */,
 				ADF45A4A2E433AC300579DC6 /* Products */,
 			);
@@ -82,6 +91,7 @@
 				TargetAttributes = {
 					ADF45A482E433AC300579DC6 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 				};
 			};
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF45A952E44EDF500579DC6 /* Rezept+CoreDataClass.swift in Sources */,
+				ADF45A962E44EDF500579DC6 /* Rezept+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73W5K48926;
@@ -269,7 +282,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmerico.RideFuel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -279,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73W5K48926;
@@ -297,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmerico.RideFuel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
