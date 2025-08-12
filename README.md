@@ -39,11 +39,8 @@ Ziel war es, praxisnah zu lernen, wie API-Daten integriert, verarbeitet und in e
 ⸻
 
 🚀 Installation & Start
-	1.	Repository clonen
-
-git clone <repo-url>
-
-
+	
+ 	1.	Repository clonen: git clone <repo-url>
 	2.	In Xcode öffnen
 	3.	Eigenen RapidAPI Key eintragen (RezeptAPIService.swift)
 	4.	App auf Simulator oder echtem Gerät starten
