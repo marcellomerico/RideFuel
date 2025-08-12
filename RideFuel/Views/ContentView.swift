@@ -5,11 +5,8 @@
 //  Created by Marcello Merico on 06.08.25.
 //
 import SwiftUI
-import CoreData
-
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var context
 
     var body: some View {
         NavigationStack {

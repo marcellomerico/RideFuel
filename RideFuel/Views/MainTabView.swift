@@ -6,10 +6,8 @@
 //
 
 import SwiftUI
-import CoreData
 
 struct MainTabView: View {
-    @Environment(\.managedObjectContext) private var context
     
     var body: some View {
         TabView {
